@@ -18,6 +18,9 @@ var axios = require('axios');
 exports.pass = functions.https.onRequest((request, response) => {
     functions.logger.info("Hello logs!", {structredData: true});
     response.load("Hello from Firebase!");
+
+
+    
 })
 
 // Create and deploy your first functions
